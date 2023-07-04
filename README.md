@@ -16,20 +16,23 @@ This is the official implementation of a state-of-the-art medical image deblurri
 }
 
 ```
+
+
+# Network Architecture
 # Overview
 <p align="center">
 <img width=800 align="center" src = "ttps://github.com/sharif-apu/MedDeblur/blob/main/images/overview.png" alt="Overview"> </br>
 </p>
 
-**Figure:** Overview of proposed medical image denoising method. 
+**Figure:** Overview of the proposed network for learning medical image deblurring. The proposed method comprises a novel RD-SAM block in a scale recurrent network for learning salient features to accelerate deblurring performance. 
 
-# Network Architecture
+# Proposed RD-SAM
+
 <p align="center">
- <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101642681-79841180-3a5d-11eb-9dcf-ae9db1e757f9.png" alt="network"> </br>
+ <img width=800 align="center" src = "[https://user-images.githubusercontent.com/15001857/101642681-79841180-3a5d-11eb-9dcf-ae9db1e757f9.png](https://github.com/sharif-apu/MedDeblur/blob/main/images/RD-SAM.png)" alt="network"> </br>
 </p>
 
-**Figure:** Overview of the proposed network for learning medical image deblurring. The proposed method comprises a novel RD-SAM block in a scale recurrent network for learning salient features to
-accelerate deblurring performance.
+**Figure:** Overview of proposed RD-SAM. It comprises a residual dense block, followed by a spatial-symmetric attention module. (a) Proposed RD-SAM. (b) Spatial-asymmetric attention module.
 
 
 # Medical Image Deblurring Results </br>
@@ -98,4 +101,4 @@ To specify your trining images path, go to mainModule/config.json and update "tr
 ```python main.py -to ```</br>
 
 # Contact
-For any further queries, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
+For any further queries, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr
