@@ -29,7 +29,7 @@ This is the official implementation of a state-of-the-art medical image deblurri
 # Proposed RD-SAM
 
 <p align="center">
- <img width=800 align="center" src = "[https://user-images.githubusercontent.com/15001857/101642681-79841180-3a5d-11eb-9dcf-ae9db1e757f9.png](https://github.com/sharif-apu/MedDeblur/blob/main/images/RD-SAM.png)" alt="network"> </br>
+ <img width=800 align="center" src = "https://github.com/sharif-apu/MedDeblur/blob/main/images/RD-SAM.png" alt="network"> </br>
 </p>
 
 **Figure:** Overview of proposed RD-SAM. It comprises a residual dense block, followed by a spatial-symmetric attention module. (a) Proposed RD-SAM. (b) Spatial-asymmetric attention module.
