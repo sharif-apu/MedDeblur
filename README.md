@@ -74,13 +74,13 @@ pip install -r requirement.txt
 **MeDeblur can be inferenced with pretrained weights and default setting as follows:** </br>
 ```python main.py -i``` </br>
 
-A few testing images are provided in a sub-directory under testingImages (i.e., testingImages/sampleImages/)</br>
-In such occasion, denoised image(s) will be available in modelOutput/sampleImages/. </br>
+A few testing images are provided in a sub-directory under blurTest (i.e., blurTest/samples/)</br>
+In such occasion, outputs will be available in modelOutput/sampless/. </br>
 
 **To inference with custom setting execute the following command:**</br>
-```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
-Here,**-ns** specifies the standard deviation of a Gaussian distribution (i.e., -ns=15, 25, 50),**-s** specifies the root directory of the source images
- (i.e., testingImages/), and **-d** specifies the destination root (i.e., modelOutput/).
+```python main.py -i -s path/to/inputImages -d path/to/outputImages``` </br>
+Here, **-s** specifies the root directory of the source images
+ (i.e., blurTest/), and **-d** specifies the destination root (i.e., modelOutput/).
 
 # Training
 **To train with your own dataset execute:**</br>
