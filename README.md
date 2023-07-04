@@ -19,9 +19,9 @@ This is the official implementation of a state-of-the-art medical image deblurri
 
 
 # Network Architecture
-# Overview
+# Multi-scale Network
 <p align="center">
-<img width=800 align="center" src = "ttps://github.com/sharif-apu/MedDeblur/blob/main/images/overview.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://github.com/sharif-apu/MedDeblur/blob/main/images/overview.png" alt="Overview"> </br>
 </p>
 
 **Figure:** Overview of the proposed network for learning medical image deblurring. The proposed method comprises a novel RD-SAM block in a scale recurrent network for learning salient features to accelerate deblurring performance. 
