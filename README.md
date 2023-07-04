@@ -32,14 +32,13 @@ This is the official implementation of a state-of-the-art medical image deblurri
 accelerate deblurring performance.
 
 
-# Medical Image Denoising with DRAN </br>
+# Medical Image Deblurring Results </br>
 **Qualitative Comparison** </br>
 <p align="center">
 <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101643040-e697a700-3a5d-11eb-8099-e054ae9c7759.png" alt="Results"> </br>
 </p>
 
-**Figure:** </em> Performance of existing medical image denoising methods in removing image noise at **sigma = 50**. The existing denoising methods immensely failed in addressing a substantial amount of noise removal and susceptible to produce artefacts. (a) Noisy input. (b) Result obtained by BM3D. (c) Result
-obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by **DRAN**. (f) Reference Image.
+**Figure:** </em> Performance of existing medical image deblurring methods in removing blind motion blur. The existing deblurring methods immensely failed in removing blur from medical images. (a) Blurry input. (b) Result obtained by TEMImageNet. (c) Result obtained by ZhaoNet. (d) Result obtained by Deep Deblur. (e) Result obtained by SRN Deblur [13]. (f) Proposed Method.
 
     
 **Quantitative Comparison** </br>
@@ -47,9 +46,8 @@ obtained by DnCNN. (d) Result obtained by Residual MID. (e) Result obtained by *
 <img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101272591-c9da4580-37b7-11eb-8db8-37d7c53ed36c.png" alt="Results"> 
 </p>
 
-**Table:** Quantitative comparison between different medical image denoising methods. Results are
-obtained by calculating the mean on two evaluation metrics (PSNR and SSIM). In all comparing categories, the proposed
-method illustrates the consistency and outperforms the existing denoising methods. </br>
+**Table:** Objective comparison between deep deblurring methods for MID. We evaluated the performance of each comparing method by utilizing the evaluation metrics. Moreover, we calculated individual scores (i.e., PSNR, SSIM, and deltaE) for all testing images. We compute the mean performance of each comparing method for a specific dataset to observe their performance on that respective modality. Later, we summarized the performance of each comparing method by calculating the mean PSNR, SSIM, and deltaE scores obtained on the individual modality.
+ </br>
 
 
 
@@ -70,7 +68,7 @@ pip install -r requirement.txt
 ```
 
 # Testing
-**DRAN can be inferenced with pretrained weights and default setting as follows:** </br>
+**MeDeblur can be inferenced with pretrained weights and default setting as follows:** </br>
 ```python main.py -i``` </br>
 
 A few testing images are provided in a sub-directory under testingImages (i.e., testingImages/sampleImages/)</br>
@@ -100,4 +98,4 @@ To specify your trining images path, go to mainModule/config.json and update "tr
 ```python main.py -to ```</br>
 
 # Contact
-For any further query, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
+For any further queries, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
