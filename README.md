@@ -38,7 +38,7 @@ This is the official implementation of a state-of-the-art medical image deblurri
 # Medical Image Deblurring Results </br>
 **Qualitative Comparison** </br>
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101643040-e697a700-3a5d-11eb-8099-e054ae9c7759.png" alt="Results"> </br>
+<img width=800 align="center" src = "https://github.com/sharif-apu/MedDeblur/blob/main/images/vis_res.png" alt="Results"> </br>
 </p>
 
 **Figure:** </em> Performance of existing medical image deblurring methods in removing blind motion blur. The existing deblurring methods immensely failed in removing blur from medical images. (a) Blurry input. (b) Result obtained by TEMImageNet. (c) Result obtained by ZhaoNet. (d) Result obtained by Deep Deblur. (e) Result obtained by SRN Deblur [13]. (f) Proposed Method.
@@ -46,7 +46,7 @@ This is the official implementation of a state-of-the-art medical image deblurri
     
 **Quantitative Comparison** </br>
 <p align="center">
-<img width=800 align="center"  src = "https://user-images.githubusercontent.com/15001857/101272591-c9da4580-37b7-11eb-8db8-37d7c53ed36c.png" alt="Results"> 
+<img width=800 align="center"  src = "https://github.com/sharif-apu/MedDeblur/blob/main/images/results.png" alt="Results"> 
 </p>
 
 **Table:** Objective comparison between deep deblurring methods for MID. We evaluated the performance of each comparing method by utilizing the evaluation metrics. Moreover, we calculated individual scores (i.e., PSNR, SSIM, and deltaE) for all testing images. We compute the mean performance of each comparing method for a specific dataset to observe their performance on that respective modality. Later, we summarized the performance of each comparing method by calculating the mean PSNR, SSIM, and deltaE scores obtained on the individual modality.
