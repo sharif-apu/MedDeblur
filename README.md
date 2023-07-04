@@ -4,16 +4,17 @@ This is the official implementation of a state-of-the-art medical image deblurri
 
 **Please consider citing this paper as follows:**
 ```
-@article{sharif2020learning,
-  title={Learning Medical Image Denoising with Deep Dynamic Residual Attention Network},
-  author={Sharif, SMA and Naqvi, Rizwan Ali and Biswas, Mithun},
+@article{sharif2022meddeblur,
+  title={MedDeblur: Medical Image Deblurring with Residual Dense Spatial-Asymmetric Attention},
+  author={Sharif, SMA and Naqvi, Rizwan Ali and Mehmood, Zahid and Hussain, Jamil and Ali, Ahsan and Lee, Seung-Won},
   journal={Mathematics},
-  volume={8},
-  number={12},
-  pages={2192},
-  year={2020},
-  publisher={Multidisciplinary Digital Publishing Institute}
+  volume={11},
+  number={1},
+  pages={115},
+  year={2022},
+  publisher={MDPI}
 }
+
 ```
 # Overview
 <p align="center">
@@ -27,7 +28,8 @@ This is the official implementation of a state-of-the-art medical image deblurri
  <img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/101642681-79841180-3a5d-11eb-9dcf-ae9db1e757f9.png" alt="network"> </br>
 </p>
 
-**Figure:** The overview of proposed network architecture. The proposed network incorporates novel dynamic residual attention blocks, which utilizes dynamic convolution and a noise gate. Also, the network leverage the residual learning along with the learning feature correlation.
+**Figure:** Overview of the proposed network for learning medical image deblurring. The proposed method comprises a novel RD-SAM block in a scale recurrent network for learning salient features to
+accelerate deblurring performance.
 
 
 # Medical Image Denoising with DRAN </br>
