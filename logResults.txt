@@ -1,0 +1,192 @@
+(shEnv) sharif@sharif-System-Product-Name:~/MEGA/MedDeblur/MultiscaleSAGAN_revision$ python main.py -i
+/media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/
+17 /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/110000/
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/110000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+/home/sharif/MEGA/MedDeblur/MultiscaleSAGAN_revision/mainModule/dpbs.py:315: FutureWarning: `multichannel` is a deprecated argument name for `structural_similarity`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  ssimScore = ssim(gt, target, multichannel=True)
+Image Processd | 100% (178/178) [#####################] eta 00:00 / 
+
+
+Checkpoint:  | PSNR: 30.91 | SSIM: 0.8103, | DeltaE: 3.68
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/160000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 - 
+
+
+Checkpoint:  | PSNR: 30.92 | SSIM: 0.8209, | DeltaE: 3.73
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/100000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 \ 
+
+
+Checkpoint:  | PSNR: 30.58 | SSIM: 0.7714, | DeltaE: 3.77
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/130000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 | 
+
+
+Checkpoint:  | PSNR: 30.82 | SSIM: 0.8252, | DeltaE: 3.75
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/60000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 / 
+
+
+Checkpoint:  | PSNR: 29.59 | SSIM: 0.7814, | DeltaE: 3.85
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/120000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 - 
+
+
+Checkpoint:  | PSNR: 30.85 | SSIM: 0.8062, | DeltaE: 3.72
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/80000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 \ 
+
+
+Checkpoint:  | PSNR: 30.48 | SSIM: 0.8300, | DeltaE: 3.68
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/40000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 | 
+
+
+Checkpoint:  | PSNR: 29.99 | SSIM: 0.7720, | DeltaE: 3.84
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/150000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 / 
+
+
+Checkpoint:  | PSNR: 30.95 | SSIM: 0.8176, | DeltaE: 3.71
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/50000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 - 
+
+
+Checkpoint:  | PSNR: 30.19 | SSIM: 0.8020, | DeltaE: 3.76
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/90000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 \ 
+
+
+Checkpoint:  | PSNR: 30.63 | SSIM: 0.8354, | DeltaE: 3.64
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/10000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 | 
+
+
+Checkpoint:  | PSNR: 27.85 | SSIM: 0.6711, | DeltaE: 4.28
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/backup/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 / 
+
+
+Checkpoint:  | PSNR: 30.82 | SSIM: 0.7872, | DeltaE: 3.70
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/140000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 - 
+
+
+Checkpoint:  | PSNR: 30.85 | SSIM: 0.8239, | DeltaE: 3.74
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/70000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 \ 
+
+
+Checkpoint:  | PSNR: 30.50 | SSIM: 0.7822, | DeltaE: 3.80
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/30000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:01 | 
+
+
+Checkpoint:  | PSNR: 29.32 | SSIM: 0.7229, | DeltaE: 3.99
+ /media/sharif/XtrasHD1/MedDeblur/checkpoint_MultiscaleSAGAN_MedDeblur/20000/
+****************************************************************
+                 Loading pretrained weight                 
+****************************************************************
+****************************************************************
+                Weight loaded successfully                 
+****************************************************************
+Image Processd | 100% (178/178) [#####################] eta 00:00 / 
+
+
+Checkpoint:  | PSNR: 29.03 | SSIM: 0.7793, | DeltaE: 4.02
