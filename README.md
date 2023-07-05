@@ -1,5 +1,9 @@
 # MedDeblur
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/meddeblur-medical-image-deblurring-with/medical-image-deblurring-on-chexpert)](https://paperswithcode.com/sota/medical-image-deblurring-on-chexpert?p=meddeblur-medical-image-deblurring-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/meddeblur-medical-image-deblurring-with/medical-image-deblurring-on-covid-19-ct-scan)](https://paperswithcode.com/sota/medical-image-deblurring-on-covid-19-ct-scan?p=meddeblur-medical-image-deblurring-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/meddeblur-medical-image-deblurring-with/medical-image-deblurring-on-brain-mri)](https://paperswithcode.com/sota/medical-image-deblurring-on-brain-mri?p=meddeblur-medical-image-deblurring-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/meddeblur-medical-image-deblurring-with/medical-image-deblurring-on-human-protein)](https://paperswithcode.com/sota/medical-image-deblurring-on-human-protein?p=meddeblur-medical-image-deblurring-with)
+
 
 This is the official implementation of a state-of-the-art medical image deblurring method titled as **"MedDeblur: Medical Image Deblurring with Residual Dense Spatial-Asymmetric Attention"**. **[[Click Here]([https://www.mdpi.com/2227-7390/8/12/2192/pdf](https://www.mdpi.com/2227-7390/11/1/115/pdf?version=1672128173))]** to download the full paper (in PDF).  </br>
 
